@@ -15,8 +15,8 @@ def quadratic(a,b,c):
 	result1 = ((-b)+(((b**2) - (4*a*c))**0.5))/(2*a)
 	result2 = ((-b)-(((b**2) - (4*a*c))**0.5))/(2*a)
 	if result1 == result2:
-		print('The x intercept is ' + str(result1))
+		return 'The x intercept is ' + str(result1)
 	else:
-		print('The x-intercepts are ' + str(result1) + ' and ' + str(result2))
+		return 'The x-intercepts are ' + str(result1) + ' and ' + str(result2)
 	  
 print(quadratic(a,b,c))
